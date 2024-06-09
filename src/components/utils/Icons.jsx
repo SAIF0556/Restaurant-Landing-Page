@@ -29,7 +29,7 @@ const IconBar = () => {
         </button>
       </div>
       <div
-        className={`flex-col bg-green-800  lg:flex gap-1 mr-3 lg:flex-row lg:gap-1 justify-center items-center  ${
+        className={`flex-col bg-green-800  lg:flex gap-1 mr-3 lg:flex-row lg:gap-1 justify-center items-center p-4 rounded-lg lg:static absolute  ${
           isOpen ? 'flex' : 'hidden'
         } lg:block`}
       >
